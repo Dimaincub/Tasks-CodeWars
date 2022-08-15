@@ -25,3 +25,10 @@ console.log(findNextSquare(15241383936)) // 15241630849
 
 console.log(findNextSquare(122)) // -1
 console.log(findNextSquare(626)) // -1
+
+// Write a function which converts the input string to uppercase.
+
+function makeUpperCase(str) {
+  return str.toUpperCase()
+}
+console.log(makeUpperCase('hello'))
